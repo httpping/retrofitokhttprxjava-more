@@ -1,7 +1,7 @@
 package com.utils.ui;
 
 
-/**   
+/**
 * @Title: VpActivity.java 
 * @Package com.vp.loveu.base 
 * @Description: TODO(用一句话描述该文件做什么) 
@@ -11,7 +11,8 @@ package com.utils.ui;
 */
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 
 import com.utils.log.VPLog;
 
@@ -24,23 +25,24 @@ import com.utils.log.VPLog;
  * @author ping
  * @date 
  */
-public abstract class BaseActivity extends FragmentActivity {
-	protected String tag;	
- 
+public abstract class BaseActivity extends AppCompatActivity {
+	protected String tag;
+	private Fragment mFragment;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		tag = "aiu"+ this.getComponentName().getShortClassName();	
 		VPLog.d("oncreate:"+tag, "oncreate");
-		
-	}
 
+
+	}
 
 	@Override
 	public void finish() {
 		super.finish();
-		 
+		VPLog.d(tag, "finish");
 	}
 	
 
@@ -61,9 +63,5 @@ public abstract class BaseActivity extends FragmentActivity {
 		VPLog.d(tag, "onDestroy");
 	}
 	
-	 
- 
-	
-	
- 
+
 }

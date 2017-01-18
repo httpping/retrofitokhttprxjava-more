@@ -9,6 +9,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.com.baseapp.ui.demomvp.ListViewDemo">
+    tools:context="com.com.baseapp.ui.demomvp.ListViewDemoActivity">
 
 </RelativeLayout>

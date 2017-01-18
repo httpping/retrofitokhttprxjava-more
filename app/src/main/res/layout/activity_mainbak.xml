@@ -26,7 +26,7 @@
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="@drawable/ripple_red_with_white_mask"
+        android:background="@drawable/default_ripple_bg"
         android:id="@+id/button"/>
 
     <com.ashokvarma.bottomnavigation.BottomNavigationBar

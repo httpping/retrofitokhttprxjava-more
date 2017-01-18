@@ -10,12 +10,24 @@ package com.mvp.base;
 * @version V1.0   
 */
 
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Message;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
+import com.tpnet.params.VpRequestParams;
 import com.utils.log.VPLog;
+import com.utils.ui.BaseActivity;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import rx.Subscriber;
 
 
 /**
@@ -26,26 +38,57 @@ import com.utils.log.VPLog;
  * @author ping
  * @date 
  */
-public abstract class BaseMvpActivity extends FragmentActivity {
+public abstract class BaseMvpActivity extends BaseActivity{
 	protected String tag;
-	private Fragment mFragment;
+	public Fragment mFragment;
 
+	/**
+	 * 根view
+	 */
+	public View mRootView ;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		tag = "aiu"+ this.getComponentName().getShortClassName();	
 		VPLog.d("oncreate:"+tag, "oncreate");
+		// 经测试在代码里直接声明透明状态栏更有效
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+			Window window = getWindow();
+			// Translucent status bar
+			window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+			// Translucent navigation bar
+			window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+		}
 
+		EventBus.getDefault().register(this);
+		setContentView(getContentView());
 
+		if (getContentView() == R.layout.base_mvp_layout) {
+			mRootView = findViewById(R.id.activity_root_view);
+		}
 	}
 
 
 	/**
-	 * 添加fragment
-	 * @param frameLayoutId
-	 * @param fragment
+	 * 重写替换默认layout布局
+	 * @return
      */
+	public int getContentView(){
+		return  R.layout.base_mvp_layout;
+	}
+
+
+	protected void addFragment( Fragment fragment) {
+		addFragment(mRootView.getId(),fragment);
+	}
+
+
+		/**
+         * 添加fragment
+         * @param frameLayoutId
+         * @param fragment
+         */
 	protected void addFragment(int frameLayoutId, Fragment fragment) {
 		if (fragment != null) {
 			FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
@@ -93,12 +136,33 @@ public abstract class BaseMvpActivity extends FragmentActivity {
 	protected void onDestroy() {
 		super.onDestroy();
 		VPLog.d(tag, "onDestroy");
-	}
-	
-	 
-
-	public static interface BasePresenter{
-		void requestData()
+		EventBus.getDefault().unregister(this);
 	}
 
+
+    /**
+	 * 请求数据代理
+	 */
+	public static interface BasePresenter<T>{
+
+		/**
+		 * 请求数据代理
+		 * @param params
+		 * @param sub
+         * @param
+         */
+		 void requestData(VpRequestParams params, Subscriber  sub);
+
+		/**
+		 * 刷新界面
+		 * @param root 根view
+		 * @param obj  数据bean
+		 * @param type view 的类型。方便更新view做判断
+         * @param
+         */
+		  void updateView(View root, T obj, int type);
+ 	}
+
+	@Subscribe(threadMode = ThreadMode.MAIN)
+	public void onMessageEvent(Message event) {/* Do something */};
 }

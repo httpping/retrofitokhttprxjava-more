@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/OneKeyShareNew/OneKeyShareNew.iml" filepath="$PROJECT_DIR$/OneKeyShareNew/OneKeyShareNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpbase/mvpbase.iml" filepath="$PROJECT_DIR$/mvpbase/mvpbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycle-adapter/recycle-adapter.iml" filepath="$PROJECT_DIR$/recycle-adapter/recycle-adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitokhttprxjava.iml" filepath="$PROJECT_DIR$/retrofitokhttprxjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/tpnet/tpnet.iml" filepath="$PROJECT_DIR$/tpnet/tpnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils-box/utils-box.iml" filepath="$PROJECT_DIR$/utils-box/utils-box.iml" />

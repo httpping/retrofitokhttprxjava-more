@@ -5,7 +5,7 @@ import android.text.TextUtils;
 
 import com.example.retrofitokrxtest.xsbtest.Contents;
 import com.example.retrofitokrxtest.xsbtest.DemoIn;
-import com.example.retrofitokrxtest.xsbtest.remote.XsbSerarchServ;
+import com.baseapp.model.remote.XsbSerarchServ;
 import com.tpnet.VpHttpClient;
 import com.tpnet.interceptor.BasicParamsInterceptor;
 import com.tpnet.interceptor.LoggingInterceptor;

@@ -4,12 +4,28 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
     }
+}
+
+
+
+ext {
+    compileSdkVersion = 24
+    buildToolsVersion = "25.0.1"
+    applicationId = "com.chinamobile.yunnan"
+    minSdkVersion = 19
+    targetSdkVersion = 24
+    versionCode = 271
+    versionName = "v2.7.1(1612211352)"
+    supportVersion = '25.1.0'
 }

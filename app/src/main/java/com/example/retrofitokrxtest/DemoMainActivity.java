@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.example.retrofitokrxtest.demo.DataManager;
+import com.base.app.R;
+import com.baseapp.model.DataManager;
+import com.baseapp.model.entity.LoginBean;
 import com.example.retrofitokrxtest.demo.SearchDataManager;
 import com.example.retrofitokrxtest.demo.TestDataManager;
 import com.example.retrofitokrxtest.xsbtest.Contents;
-import com.example.retrofitokrxtest.xsbtest.RRSubscri;
-import com.example.retrofitokrxtest.xsbtest.remote.entity.LoginBean;
+import com.baseapp.model.XSubscriber;
 import com.tpnet.params.VpRequestParams;
 import com.tpnet.remote.RSubscriber;
 import com.utils.log.NetLog;
@@ -33,10 +34,17 @@ import rx.schedulers.Schedulers;
 public class DemoMainActivity extends BaseActivity {
 	public static final String tag = "MainActivity";
 
-    @Override
+
+
+
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.base_mvp_layout);
+
+		initView();
+
+
 		findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -52,6 +60,18 @@ public class DemoMainActivity extends BaseActivity {
 		});
 
 	}
+
+
+	/**
+	 * init view
+	 */
+	void initView(){
+
+
+	}
+
+
+
 
 	public void test3MutilBody(){
 		VpRequestParams  params = new VpRequestParams();
@@ -93,7 +113,7 @@ public class DemoMainActivity extends BaseActivity {
 		Map<String,String> params = new HashMap<>();
 		params.put("username","13888678188");
 		params.put("password","678188");
-		DataManager.XsbServ().VerifyAccount(params).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new RRSubscri<LoginBean>(this) {
+		DataManager.XsbServ().VerifyAccount(params).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new XSubscriber<LoginBean>(this) {
 					/*@Override
 					public void onStart() {
 						super.onStart();

@@ -9,8 +9,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.chinamobile.yunnan.R;
-import com.vpclub.base.VpActivity;
+import com.mvp.base.R;
+import com.utils.ui.BaseActivity;
+
 
 /**
  * @author：ping
@@ -59,7 +60,7 @@ public class PublicTitleView extends RelativeLayout implements OnClickListener {
 
 		mLeftLayout.setOnClickListener(this);
 		
-		setBackgroundResource(R.color.white);
+		//setBackgroundResource(R.color.white);
 		
 	}
 	
@@ -70,15 +71,12 @@ public class PublicTitleView extends RelativeLayout implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.left_back_layouts:
-			if(getContext() instanceof VpActivity){
-				((VpActivity)getContext()).finish();
+		if (v.equals(mLeftLayout)){
+			if(getContext() instanceof BaseActivity){
+				((BaseActivity)getContext()).finish();
 			}
-			break;
-		default:
-			break;
 		}
+
 		
 	}
 	

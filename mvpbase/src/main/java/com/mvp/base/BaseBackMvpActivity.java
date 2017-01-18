@@ -12,14 +12,9 @@ package com.mvp.base;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 
-import com.tpnet.params.VpRequestParams;
+import com.mvp.base.widget.PublicTitleView;
 import com.utils.log.VPLog;
-
-import rx.Subscriber;
 
 
 /**
@@ -30,14 +25,12 @@ import rx.Subscriber;
  * @author ping
  * @date 
  */
-public abstract class BaseBackMvpActivity extends FragmentActivity  {
+public abstract class BaseBackMvpActivity extends BaseMvpActivity {
 	protected String tag;
 	public Fragment mFragment;
 
-	/**
-	 * 根view
-	 */
-	public View mRootView ;
+
+	public PublicTitleView mPublicTitleView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +39,14 @@ public abstract class BaseBackMvpActivity extends FragmentActivity  {
 		VPLog.d("oncreate:"+tag, "oncreate");
 
 		setContentView(getContentView());
+		mRootView = findViewById(R.id.main_content);
+		mPublicTitleView = (PublicTitleView) findViewById(R.id.public_title_view);
 
-		if (getContentView() == R.layout.base_mvp_layout) {
-			mRootView = findViewById(R.id.activity_root_view);
-		}
+	}
+
+	@Override
+	public void setTitle(CharSequence title) {
+		mPublicTitleView.setTitle(title);
 	}
 
 
@@ -58,87 +55,9 @@ public abstract class BaseBackMvpActivity extends FragmentActivity  {
 	 * @return
      */
 	public int getContentView(){
-		return  R.layout.base_mvp_layout;
+		return  R.layout.base_toolbar_mvp_layout;
 	}
 
 
-
-	/**
-	 * 添加fragment
-	 * @param frameLayoutId
-	 * @param fragment
-     */
-	protected void addFragment(int frameLayoutId, Fragment fragment) {
-		if (fragment != null) {
-			FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-			if (fragment.isAdded()) {
-				if (mFragment != null) {
-					transaction.hide(mFragment).show(fragment);
-				} else {
-					transaction.show(fragment);
-				}
-			} else {
-				if (mFragment != null) {
-					transaction.hide(mFragment).add(frameLayoutId, fragment);
-				} else {
-					transaction.add(frameLayoutId, fragment);
-				}
-			}
-			mFragment = fragment;
-			transaction.commit();
-		}
-	}
-
-
-
-
-
-	@Override
-	public void finish() {
-		super.finish();
-		VPLog.d(tag, "finish");
-	}
-	
-
-	@Override
-	protected void onResume() {
-		super.onResume();
-		VPLog.d(tag, "onResume");
-	}
-	
-	@Override
-	protected void onPause() {
-		super.onPause();
-		VPLog.d(tag, "onPause");
-	}
-	@Override
-	protected void onDestroy() {
-		super.onDestroy();
-		VPLog.d(tag, "onDestroy");
-	}
-
-
-    /**
-	 * 请求数据代理
-	 */
-	public static interface BasePresenter<T>{
-
-		/**
-		 * 请求数据代理
-		 * @param params
-		 * @param sub
-         * @param <Obj>
-         */
-		 void requestData(VpRequestParams params, Subscriber sub);
-
-		/**
-		 * 刷新界面
-		 * @param root 根view
-		 * @param obj  数据bean
-		 * @param type view 的类型。方便更新view做判断
-         * @param <T>
-         */
-		  void updateView(View root, T obj, int type);
- 	}
 
 }

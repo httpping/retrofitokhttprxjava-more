@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="teal"/>
+    <color name="teal">#800000ff</color>
+    <color name="green_public">#ff0000</color>
+
+    <color name="vlink_item_msg_remind_text_color">#999999</color>
+    <color name="vlink_item_msg_remind_selected">#10000000</color>
+    <color name="bg_gray">#F3F2F2</color>
+    <color name="button_ripple_color">#8000ff00</color>
+    <color name="button_nor_color">#ffffff</color>
+    <color name="button_sel_color">#66666666</color>
 </resources>

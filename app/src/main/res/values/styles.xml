@@ -9,12 +9,51 @@
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
-        -->
+        -->Base.Theme.AppCompat
+
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+     <!--   <item name="android:buttonStyle">@style/CustomButtonTheme</item>-->
+
+        <!--<item name="android:background">@drawable/default_ripple_bg</item>-->
     </style>
 
+
+    <!-- 公共的 view 的默认 bg 定义 -->
+    <!--<style name="CustomButtonTheme" parent="@style/Widget.AppCompat.Button">-->
+        <!--<item name="android:background">@drawable/default_ripple_bg</item>-->
+    <!--</style>-->
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <!-- radioGRoup样式 -->
+    <style name="TabStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">9dip</item>
+        <item name="android:textColor">@color/home_activity_bottom_radiotextcolor_select</item>
+    </style>
+
+    <!-- 网页进度条 -->
+    <style name="webviewhorzitalprogressbar_style" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+    </style>
 </resources>
