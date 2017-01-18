@@ -2,7 +2,8 @@ package com.example.retrofitokrxtest.ui.demomvp;
 
 import android.os.Bundle;
 
-import com.mvp.base.BaseBackMvpActivity;
+import com.baseapp.mvp.BaseBackMvpActivity;
+
 
 public class MvpDemoActivity  extends BaseBackMvpActivity {
 

@@ -19,8 +19,8 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 import com.base.app.R;
+import com.baseapp.mvp.BaseMvpFragment;
 import com.baseapp.weiget.TimeoutRemindView;
-import com.mvp.base.BaseMvpFragment;
 import com.utils.log.VPLog;
 
 import butterknife.BindView;

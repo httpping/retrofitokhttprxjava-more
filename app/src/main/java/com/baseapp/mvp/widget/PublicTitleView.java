@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.mvp.base.R;
-import com.utils.ui.BaseActivity;
+import com.base.app.R;
+import com.baseapp.mvp.BaseActivity;
 
 
 /**

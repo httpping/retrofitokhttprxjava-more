@@ -6,15 +6,15 @@ import android.view.View;
 
 import com.base.app.R;
 import com.baseapp.model.DataManager;
+import com.baseapp.model.XSubscriber;
 import com.baseapp.model.entity.LoginBean;
+import com.baseapp.mvp.BaseActivity;
 import com.example.retrofitokrxtest.demo.SearchDataManager;
 import com.example.retrofitokrxtest.demo.TestDataManager;
 import com.example.retrofitokrxtest.xsbtest.Contents;
-import com.baseapp.model.XSubscriber;
 import com.tpnet.params.VpRequestParams;
 import com.tpnet.remote.RSubscriber;
 import com.utils.log.NetLog;
-import com.utils.ui.BaseActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;

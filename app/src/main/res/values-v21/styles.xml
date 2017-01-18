@@ -1,12 +1,12 @@
 <resources>
 
 
-    <!--&lt;!&ndash; Application theme. &ndash;&gt;-->
+    <!-- Application theme. -->
     <!--<style name="AppTheme" parent="AppBaseTheme">-->
         <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
         <!--<item name="windowActionBar">false</item>-->
         <!--<item name="windowNoTitle">true</item>-->
-        <!--<item name="buttonStyle"></item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
     <!--</style>-->
 
 

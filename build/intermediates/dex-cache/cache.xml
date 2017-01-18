@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\gson-2.8.0_746a0ca7dd8dec3b567d86f604ac00895323717c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_06527f00ec3313e1b2f35915885dd06289bf4aed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_215204a8a4405cbfbcd38daf472e3ddbb3e02615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\MobCommons-2016.1222.1756.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="41015665a846ad67bb813b0f90e5ed6800be9f1b">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\MobCommons-2016.1222.1756_6f2e77c07698687320af19229ba62e096aa549a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_b3a6fa1492c8410301a735f894982cb0f73608c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_f8efb42f33f43f63d552daf42b082b9d1d0e20a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_2a462f0c889a238ac046eeee6a4efba53b332b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.5\b423532b5a3c949cbb799468f83bf566032fe98d\rxjava-1.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b423532b5a3c949cbb799468f83bf566032fe98d">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\rxjava-1.2.5_ef282ef114d574e5d6651870ef397e2bad70f7c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_fce1474687ff31acd8b044eac813402054c20ed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.facebook.conceal\conceal\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="30cbc9b94a9a9e3c5d4252fde59e8db066460917">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.facebook.conceal-conceal-1.1.3_d48871682a8821c22e10fcccc56244eea671409b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-ShortMessage-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fc84cf75242cdbcf5115d9952807c474941495e6">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.8.0_e280c008738269311c5baaf4188690db41fb46a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\okio-1.8.0_6258ff730521a9c0a4f5bc1ad9f1dee10bf495af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.0.0_4d6504ca828f6cdb6d6d6820e11f07ac66a5415d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-multidex-1.0.1_4c7d31fe9f23871484a36921c1d4538dd3fb2521.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_b12fcc242f60c6f0cf17e90ebd8a55d8501729da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-SinaWeibo-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75616f90f65523749c965c86825849313185d106">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.8.0_137656807b2d684f3276a10dc956e5c63dffe8ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4ab1b7088396494aacf2befac4c9f22f61df930e">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\retrofitokhttprxjava-OneKeyShareNew-unspecified_6c584685bcd39e3edff53995aaf54478df6a7331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-QQ-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="601ed8e47fc475ae71363805f2d6c18e78bc9fdd">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.8.0_b3ae5babc2ce218313692862764aead71414ddaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-Wechat-Core-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="90fb42e2c3484584bcc588f1b53a4322b6bad2ad">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.8.0_abc6039bba01d4c182951e736b8fbb68dec82467.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-Core-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d37dc460928ddcb7bca2236635cbdd0c8cf76cd">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.8.0_69243d3cbd8e6adaa18f78caac89627fd3ff728f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\in.srain.cube\ultra-ptr\1.0.11\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a0bdf70123d26dd83d8462d602b3a83a41934cf6">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\in.srain.cube-ultra-ptr-1.0.11_4f2c8abec2d71eb3af1a4124c69b20a0adc6ff9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\recycle-adapter\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b213afa252ace08a9be0964dcc2e599c6b3e628">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\retrofitokhttprxjava-recycle-adapter-unspecified_9c78a33dd9fabcb15bc1f97afd97e0b7e36fde06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.1.0_decfc795f67cdcc980d467668aa57768edd22913.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_0a2fdc4aaa6bd7fee7c65b38ce14c1c4e1a269a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_83adeb0e90cff6f73fa36d5a4d69edf2c4d9495a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\mvpbase\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75cf619c4ff50c153eca0a7b5f5c8fed1945d9e0">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\retrofitokhttprxjava-mvpbase-unspecified_f1932b5ae1feaa35687455d42bc3acb1ff14f85e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\glide-3.7.0_533f1615ef8585be3d68b72bda93f6c4e291f410.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_6ecfd225b021758144e72a61f184648e29fcff49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_658a2bcd25739f527b69653e0adcec2979037c62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-Wechat-Moments-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="034b01a16ebd34c8b459d54979f62ee7ad49860c">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.8.0_dd4458663ce49e1109d4da9f5ade4eb76c6e45c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_bf8483752dff530d766a2814a396431c02f8e54d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\MobTools-2016.1222.1756.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="57cf65231447c68f553f2b7ea0ac2564f99dca09">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\MobTools-2016.1222.1756_d4837acc74243b388c7e92cb6b299ee27ed708be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tp\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_910125488ad875fbfa7e69536b7b0ca58142ba22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-Wechat-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ce0f13d0ccb77ae0636094c600ebfc59e2215ab">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.8.0_505fda8dd9ab2ebcbf043b8c83ca743effdf8b33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_1cf803fa407278e382285a1cf46643ef42920bac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\OneKeyShareNew\unspecified\jars\libs\ShareSDK-QZone-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="50d3146dd9279422fa03eebf9354d3e7d54a65db">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.8.0_d6edf112e437be923c1dad75ca29fce3105c0dc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.orhanobut\hawk\2.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d68a8fd0dd5d9a2b4e415a8411bf8b6aa50542f">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.orhanobut-hawk-2.0.1_71675e57118ad701ede700dca5da1e7dcc1fb96a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_fbf2e5ee265d6b34f8916edfad2c39b908c21653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_4102cb91f09cb84172f0787f33f8cee5a35cd003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\tpnet\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="986ae722060a0cd933370275d8eafa0c419451d9">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\retrofitokhttprxjava-tpnet-unspecified_dac0667ad9ed2e42430d5e363aed0482c37715dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_dafe24e9d190a26e10cab5e86523a331f085c004.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\github\retrofitokhttprxjava\app\build\intermediates\exploded-aar\retrofitokhttprxjava\utils-box\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7ae4f8b40e26723333699ada6e5cb7883bc33575">
+        <dex dex="E:\github\retrofitokhttprxjava\app\build\intermediates\pre-dexed\debug\retrofitokhttprxjava-utils-box-unspecified_a0aa227008d61be0cbc42fa067943f5b5fd46d01.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,54 @@
+<in.srain.cube.views.ptr.PtrClassicFrameLayout
+	android:id="@+id/rotate_header_web_view_frame"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#f1f1f1"
+	cube_ptr:ptr_duration_to_close="200"
+	cube_ptr:ptr_duration_to_close_header="1000"
+	cube_ptr:ptr_keep_header_when_refresh="true"
+	cube_ptr:ptr_pull_to_fresh="false"
+	cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+	cube_ptr:ptr_resistance="1.7">
+
+<LinearLayout
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	 <ProgressBar
+	     android:id="@+id/webview_progressBar"
+	     style="@style/webviewhorzitalprogressbar_style"
+	     android:layout_width="match_parent"
+	     android:layout_height="1dip"
+	     android:layout_alignParentRight="true"
+	     android:max="100" />
+
+	 <RelativeLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent" >
+
+	     <WebView
+	         android:id="@+id/public_webview"
+	         android:layout_width="match_parent"
+	         android:layout_height="match_parent" />
+
+	     <com.com.baseapp.weiget.TimeoutRemindView
+	         android:id="@+id/timeoutRemindView1"
+	         android:layout_width="match_parent"
+	         android:layout_height="match_parent"
+	         android:layout_alignParentLeft="true"
+	         android:layout_alignParentTop="true"
+	         android:background="@color/bg_gray"
+	         android:visibility="gone"
+	        >
+	     </com.com.baseapp.weiget.TimeoutRemindView>
+
+	 </RelativeLayout>
+ 
+
+</LinearLayout>
+</in.srain.cube.views.ptr.PtrClassicFrameLayout>

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_home_press.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_home_press.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\webview_timeout.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\webview_timeout.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\topbar_back.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\topbar_back.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_home_nor.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_home_nor.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_data_press.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_data_press.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_my_press.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_my_press.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_data_nor.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_data_nor.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_store_press.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_store_press.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_my_nor.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_my_nor.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footbar_store_nor.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\drawable-xxhdpi\\footbar_store_nor.png"
+    }
+]

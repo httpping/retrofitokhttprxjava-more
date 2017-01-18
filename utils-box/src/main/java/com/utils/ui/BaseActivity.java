@@ -1,6 +1,8 @@
+/*
 package com.utils.ui;
 
 
+*/
 /**
 * @Title: VpActivity.java 
 * @Package com.vp.loveu.base 
@@ -8,15 +10,15 @@ package com.utils.ui;
 * @author zeus   
 * @date 2015-10-20 下午4:26:30 
 * @version V1.0   
-*/
+*//*
+
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 
 import com.utils.log.VPLog;
 
 
+*/
 /**
 
  * 基础activity
@@ -24,7 +26,8 @@ import com.utils.log.VPLog;
  * @Description:
  * @author ping
  * @date 
- */
+ *//*
+
 public abstract class BaseActivity extends AppCompatActivity {
 	protected String tag;
 	private Fragment mFragment;
@@ -65,3 +68,4 @@ public abstract class BaseActivity extends AppCompatActivity {
 	
 
 }
+*/

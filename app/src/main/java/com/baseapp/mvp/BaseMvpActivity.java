@@ -19,9 +19,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.base.app.R;
 import com.tpnet.params.VpRequestParams;
 import com.utils.log.VPLog;
-import com.utils.ui.BaseActivity;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -67,8 +67,8 @@ public abstract class BaseMvpActivity extends BaseActivity{
 		EventBus.getDefault().register(this);
 		setContentView(getContentView());
 
-		if (getContentView() == com.mvp.base.R.layout.base_mvp_layout) {
-			mRootView = findViewById(com.mvp.base.R.id.activity_root_view);
+		if (getContentView() ==  R.layout.base_mvp_layout) {
+			mRootView = findViewById(R.id.activity_root_view);
 		}
 	}
 
@@ -78,7 +78,7 @@ public abstract class BaseMvpActivity extends BaseActivity{
 	 * @return
      */
 	public int getContentView(){
-		return  com.mvp.base.R.layout.base_mvp_layout;
+		return  R.layout.base_mvp_layout;
 	}
 
 

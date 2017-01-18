@@ -67,7 +67,7 @@
         <!-- android:label="@string/app_name"> -->
         <!-- </activity> -->
         <activity
-            android:name="com.baseapp.ui.demomvp.MvpDemoActivity"
+            android:name="com.example.retrofitokrxtest.ui.demomvp.MvpDemoActivity"
             android:label="@string/title_activity_mvp_demo">
         </activity>
         <activity
@@ -81,7 +81,7 @@
         </activity>
         <activity android:name="com.baseapp.comm.WebViewActivity">
         </activity>
-        <activity android:name="com.baseapp.ui.demomvp.ListViewDemoActivity">
+        <activity android:name="com.example.retrofitokrxtest.ui.demomvp.ListViewDemoActivity">
         </activity>
         <activity android:name="com.chinamobile.yunnan.wxapi.DemoShareActivity"></activity>
 

@@ -9,4 +9,30 @@
     <color name="button_ripple_color">#8000ff00</color>
     <color name="button_nor_color">#ffffff</color>
     <color name="button_sel_color">#66666666</color>
+
+    <color name="public_title_text_color">#222222</color>
+    <color name="font_black">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 红色 -->
+    <color name="oldlace">#fdf5e6</color>
+    <!-- 老花色 -->
+
+    <color name="linen">#faf0e6</color>
+    <!-- 亚麻色 -->
+    <color name="antiquewhite">#faebd7</color>
+    <!-- 古董白 -->
+    <color name="ghostwhite">#f8f8ff</color>
+    <!-- 幽灵白 -->
+    <color name="mintcream">#f5fffa</color>
+    <!-- 薄荷色 -->
+    <color name="whitesmoke">#f5f5f5</color>
+    <!-- 烟白色 -->
+
+    <color name="default_text_content">#4A4A4A</color>
+    <color name="default_text_description">#9b9b9b</color>
+
+    <color name="colorPrimary">@color/whitesmoke</color>
+
 </resources>

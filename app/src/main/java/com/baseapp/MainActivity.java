@@ -2,6 +2,7 @@ package com.baseapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -15,9 +16,8 @@ import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 import com.base.app.R;
-import com.baseapp.ui.demomvp.ListViewDemoActivity;
-import com.baseapp.ui.demomvp.MvpDemoFragment;
-import com.mvp.base.BaseMvpActivity;
+import com.baseapp.mvp.BaseMvpActivity;
+import com.example.retrofitokrxtest.ui.demomvp.MvpDemoFragment;
 
 /**
  *
@@ -30,10 +30,13 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 
 	public ImageView mHeadImageView;
 
+	TabLayout mTablay;
+
 	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 
 		initView();
 
@@ -42,8 +45,8 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 //		intent.putExtra(WebViewActivity.URL,"http://www.baidu.com");
 //		startActivity(intent);
 
-		Intent intent = new Intent(this, ListViewDemoActivity.class);
-		startActivity(intent);
+//		Intent intent = new Intent(this, ListViewDemoActivity.class);
+//		startActivity(intent);
 
 //		Intent intent = new Intent(this, DemoShareActivity.class);
 //		startActivity(intent);
@@ -51,7 +54,7 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 //		AlertDialog dialog = new AlertDialog.Builder(this).setTitle("标题").setMessage("消息message").setNegativeButton("确定",null).create();
 //		dialog.show();
 	}
-
+//
 	@Override
 	public int getContentView() {
 		return R.layout.activity_main;
@@ -66,7 +69,16 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 	}
 
 	private void initView() {
+
+
+		mTablay = (TabLayout) findViewById(R.id.tablayout);
+		mTablay.addTab(mTablay.newTab().setIcon(R.drawable.tab_message_selector).setText("tab1"));
+		mTablay.addTab(mTablay.newTab().setText("tab2"));
+		mTablay.addTab(mTablay.newTab().setText("tab3"));
+		mTablay.addTab(mTablay.newTab().setText("tab4"));
+		mTablay.setTabMode(TabLayout.MODE_SCROLLABLE);
 		mViewPager = (ViewPager) findViewById(R.id.home_viewpager);
+		mTablay.setupWithViewPager(mViewPager,false);
 		mRadioGroup = (RadioGroup) findViewById(R.id.home_radiogroup);
 		HomePagerAdapter mAdapter = new HomePagerAdapter(getSupportFragmentManager());
 		mViewPager.setAdapter(mAdapter);
@@ -152,6 +164,12 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 		public int getCount() {
 			return 4;
 		}
+
+		@Override
+		public CharSequence getPageTitle(int position) {
+			return "tab:"+position;
+		}
+
 	}
 
 	@Override

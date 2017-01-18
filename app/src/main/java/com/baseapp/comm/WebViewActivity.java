@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 
-import com.mvp.base.BaseBackMvpActivity;
-import com.mvp.base.BaseMvpActivity;
+import com.baseapp.mvp.BaseBackMvpActivity;
+import com.baseapp.mvp.BaseMvpActivity;
 import com.tpnet.params.VpRequestParams;
 
 import rx.Subscriber;

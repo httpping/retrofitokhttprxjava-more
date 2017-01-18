@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.baseapp.model.DataManager;
 import com.baseapp.model.entity.LoginBean;
-import com.mvp.base.BaseMvpActivity;
+import com.baseapp.mvp.BaseMvpActivity;
 import com.tpnet.params.VpRequestParams;
 import com.utils.log.VPLog;
 

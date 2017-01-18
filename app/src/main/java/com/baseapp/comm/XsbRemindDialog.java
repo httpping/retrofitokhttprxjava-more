@@ -3,12 +3,14 @@ package com.baseapp.comm;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.chinamobile.yunnan.R;
+import com.base.app.R;
+
 
 /**   
 * @Title:
@@ -65,7 +67,9 @@ public class XsbRemindDialog extends DialogFragment implements View.OnClickListe
 	}
 
 
-
+	public void show(FragmentActivity activity) {
+		 show(activity.getSupportFragmentManager(), "dialog");
+	}
 
 	@Override
 	public void onClick(View v) {

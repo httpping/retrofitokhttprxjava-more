@@ -2,7 +2,9 @@ package  com.example.retrofitokrxtest.ui.demomvp;
 
 import android.os.Bundle;
 
-import com.mvp.base.BaseBackMvpActivity;
+import com.baseapp.comm.XsbRemindDialog;
+import com.baseapp.mvp.BaseBackMvpActivity;
+
 
 public class ListViewDemoActivity extends BaseBackMvpActivity {
 
@@ -15,6 +17,8 @@ public class ListViewDemoActivity extends BaseBackMvpActivity {
 
         addFragment(new ListDemoFragment());
 
+
+        XsbRemindDialog.newInstance("对话框提醒确认",null).show(this);
 
     }
 

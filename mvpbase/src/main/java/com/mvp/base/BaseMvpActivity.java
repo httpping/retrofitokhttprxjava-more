@@ -46,6 +46,7 @@ public abstract class BaseMvpActivity extends BaseActivity{
 	 * 根view
 	 */
 	public View mRootView ;
+	private static final int INVALID_VAL = -1;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -53,13 +54,15 @@ public abstract class BaseMvpActivity extends BaseActivity{
 		tag = "aiu"+ this.getComponentName().getShortClassName();	
 		VPLog.d("oncreate:"+tag, "oncreate");
 		// 经测试在代码里直接声明透明状态栏更有效
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT && Build.VERSION.SDK_INT < Build.VERSION_CODES.M ) {
 			Window window = getWindow();
 			// Translucent status bar
 			window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 			// Translucent navigation bar
 			window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+
 		}
+
 
 		EventBus.getDefault().register(this);
 		setContentView(getContentView());

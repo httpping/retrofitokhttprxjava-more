@@ -12,6 +12,7 @@
                 <item name="colorPrimaryDark">@color/whitesmoke</item>
                 <item name="colorPrimary">@color/whitesmoke</item>
                 <item name="android:windowLightStatusBar">true</item>
+                <item name="android:buttonStyle">@style/CustomButtonTheme</item>
 
                 <!--<item name="android:background">@drawable/default_ripple_bg</item>-->
         </style>

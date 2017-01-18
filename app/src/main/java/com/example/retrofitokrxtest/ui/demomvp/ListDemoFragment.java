@@ -5,10 +5,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.base.app.R;
+import com.baseapp.model.entity.ListBean;
+import com.baseapp.mvp.BaseMvpFragment;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.baseapp.model.entity.ListBean;
-import com.mvp.base.BaseMvpFragment;
 import com.utils.sreen.DensityUtil;
 
 import java.util.LinkedList;

@@ -13,7 +13,8 @@ package com.baseapp.mvp;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.mvp.base.widget.PublicTitleView;
+import com.base.app.R;
+import com.baseapp.mvp.widget.PublicTitleView;
 import com.utils.log.VPLog;
 
 
@@ -39,8 +40,8 @@ public abstract class BaseBackMvpActivity extends BaseMvpActivity {
 		VPLog.d("oncreate:"+tag, "oncreate");
 
 		setContentView(getContentView());
-		mRootView = findViewById(com.mvp.base.R.id.main_content);
-		mPublicTitleView = (PublicTitleView) findViewById(com.mvp.base.R.id.public_title_view);
+		mRootView = findViewById(R.id.main_content);
+		mPublicTitleView = (PublicTitleView) findViewById(R.id.public_title_view);
 
 	}
 
@@ -55,7 +56,7 @@ public abstract class BaseBackMvpActivity extends BaseMvpActivity {
 	 * @return
      */
 	public int getContentView(){
-		return  com.mvp.base.R.layout.base_toolbar_mvp_layout;
+		return R.layout.base_toolbar_mvp_layout;
 	}
 
 
