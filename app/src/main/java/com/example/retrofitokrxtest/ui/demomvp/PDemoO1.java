@@ -1,4 +1,4 @@
-package com.baseapp.ui.demomvp;
+package com.example.retrofitokrxtest.ui.demomvp;
 /**
  * Created by tp on 2017/1/12.
  */

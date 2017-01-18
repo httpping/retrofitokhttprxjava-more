@@ -1,4 +1,4 @@
-package com.baseapp.ui.demomvp;
+package com.example.retrofitokrxtest.ui.demomvp;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;

@@ -3,8 +3,6 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/recycle-adapter/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/tpnet/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/utils-box/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/res" />
@@ -12,8 +10,6 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/android-sdk-windows/extras/android/m2repository/com/android/support/support-core-ui/25.1.0/support-core-ui-25.1.0-sources.jar!/" />
-      <root url="jar://E:/android-sdk-windows/extras/android/m2repository/com/android/support/support-core-ui/25.1.0/support-core-ui-25.1.0-sources.jar!/" />
       <root url="jar://E:/android-sdk-windows/extras/android/m2repository/com/android/support/support-core-ui/25.1.0/support-core-ui-25.1.0-sources.jar!/" />
       <root url="jar://E:/android-sdk-windows/extras/android/m2repository/com/android/support/support-core-ui/25.1.0/support-core-ui-25.1.0-sources.jar!/" />
     </SOURCES>
