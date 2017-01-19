@@ -17,6 +17,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 
 import com.base.app.R;
 import com.baseapp.mvp.BaseMvpActivity;
+import com.example.retrofitokrxtest.ui.demomvp.ListViewDemoActivity;
 import com.example.retrofitokrxtest.ui.demomvp.MvpDemoFragment;
 
 /**
@@ -45,8 +46,8 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 //		intent.putExtra(WebViewActivity.URL,"http://www.baidu.com");
 //		startActivity(intent);
 
-//		Intent intent = new Intent(this, ListViewDemoActivity.class);
-//		startActivity(intent);
+		Intent intent = new Intent(this, ListViewDemoActivity.class);
+		startActivity(intent);
 
 //		Intent intent = new Intent(this, DemoShareActivity.class);
 //		startActivity(intent);
@@ -76,7 +77,9 @@ public class MainActivity extends BaseMvpActivity implements OnCheckedChangeList
 		mTablay.addTab(mTablay.newTab().setText("tab2"));
 		mTablay.addTab(mTablay.newTab().setText("tab3"));
 		mTablay.addTab(mTablay.newTab().setText("tab4"));
+
 		mTablay.setTabMode(TabLayout.MODE_SCROLLABLE);
+
 		mViewPager = (ViewPager) findViewById(R.id.home_viewpager);
 		mTablay.setupWithViewPager(mViewPager,false);
 		mRadioGroup = (RadioGroup) findViewById(R.id.home_radiogroup);

@@ -6,4 +6,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
 
+    <dimen name="comm_status_padding_top">0dp</dimen>
 </resources>

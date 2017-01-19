@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="AppBaseTheme">
-                <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-                <item name="windowActionBar">false</item>
-                <item name="windowNoTitle">true</item>
-                <!--   <item name="android:buttonStyle">@style/CustomButtonTheme</item>-->
-
-                <!--<attr></attr>-->
-                <!--<item name="android:attr/colorPrimaryDark"></item>-->
-                <item name="colorPrimaryDark">@color/whitesmoke</item>
-                <item name="colorPrimary">@color/whitesmoke</item>
-                <item name="android:windowLightStatusBar">true</item>
-                <item name="android:buttonStyle">@style/CustomButtonTheme</item>
-
-                <!--<item name="android:background">@drawable/default_ripple_bg</item>-->
-        </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="android:TextAppearance.Material.Widget.ActionBar.Menu"/>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="android:TextAppearance.Material.Widget.Button.Inverse"/>
     <style name="Base.Theme.AppCompat" parent="Base.V23.Theme.AppCompat"/>

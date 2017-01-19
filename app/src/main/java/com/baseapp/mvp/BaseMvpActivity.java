@@ -10,6 +10,7 @@ package com.baseapp.mvp;
 * @version V1.0   
 */
 
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
@@ -63,6 +64,19 @@ public abstract class BaseMvpActivity extends BaseActivity{
 
 		}
 
+		Window win = getWindow();
+		//KITKAT也能满足，只是SYSTEM_UI_FLAG_LIGHT_STATUS_BAR（状态栏字体颜色反转）只有在6.0才有效
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			win.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);//透明状态栏
+			// 状态栏字体设置为深色，SYSTEM_UI_FLAG_LIGHT_STATUS_BAR 为SDK23增加
+			win.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+			// 部分机型的statusbar会有半透明的黑色背景
+			win.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+			win.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+			win.setStatusBarColor(Color.TRANSPARENT);// SDK21
+			/*| View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR*/
+		}
+
 
 		EventBus.getDefault().register(this);
 		setContentView(getContentView());
@@ -71,6 +85,8 @@ public abstract class BaseMvpActivity extends BaseActivity{
 			mRootView = findViewById(R.id.activity_root_view);
 		}
 	}
+
+
 
 
 	/**

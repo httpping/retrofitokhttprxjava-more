@@ -74,6 +74,14 @@ public class MvpDemoFragment extends BaseMvpFragment<PDemoO1> {
                 Toast.makeText(getActivity(),"xxx",Toast.LENGTH_SHORT).show();
             }
         });
+
+
+        if (Math.random()<0.5) {
+            mRoot.setBackgroundResource(R.color.green_public);
+        }else {
+            mRoot.setBackgroundResource(R.color.teal);
+        }
+
     }
 
     @Override

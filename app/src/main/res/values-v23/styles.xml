@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-        <style name="AppTheme" parent="AppBaseTheme">
-                <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-                <item name="windowActionBar">false</item>
-                <item name="windowNoTitle">true</item>
-                <!--   <item name="android:buttonStyle">@style/CustomButtonTheme</item>-->
+        <!--<style name="AppTheme" parent="AppBaseTheme">-->
+                <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+                <!--<item name="windowActionBar">false</item>-->
+                <!--<item name="windowNoTitle">true</item>-->
+                <!--&lt;!&ndash;   <item name="android:buttonStyle">@style/CustomButtonTheme</item>&ndash;&gt;-->
 
-                <!--<attr></attr>-->
-                <!--<item name="android:attr/colorPrimaryDark"></item>-->
-                <item name="colorPrimaryDark">@color/whitesmoke</item>
-                <item name="colorPrimary">@color/whitesmoke</item>
-                <item name="android:windowLightStatusBar">true</item>
-                <item name="android:buttonStyle">@style/CustomButtonTheme</item>
+                <!--&lt;!&ndash;<attr></attr>&ndash;&gt;-->
+                <!--&lt;!&ndash;<item name="android:attr/colorPrimaryDark"></item>&ndash;&gt;-->
+                <!--<item name="colorPrimaryDark">@color/whitesmoke</item>-->
+                <!--<item name="colorPrimary">@color/whitesmoke</item>-->
+                <!--<item name="android:windowLightStatusBar">true</item>-->
+                <!--<item name="android:buttonStyle">@style/CustomButtonTheme</item>-->
 
-                <!--<item name="android:background">@drawable/default_ripple_bg</item>-->
-        </style>
+                <!--&lt;!&ndash;<item name="android:background">@drawable/default_ripple_bg</item>&ndash;&gt;-->
+        <!--</style>-->
 </resources>
