@@ -11,7 +11,14 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\values-v19\\dimens.xml"
+                    "file": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\values-v19\\dimens.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 54,
+                        "endOffset": 67
+                    }
                 }
             }
         ]

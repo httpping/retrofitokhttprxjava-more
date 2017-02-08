@@ -124,6 +124,10 @@
         "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_radius.xml",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\retrofitokhttprxjava\\banner\\1.4.8\\res\\drawable\\white_radius.xml"
+    },
+    {
         "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
         "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\retrofitokhttprxjava\\OneKeyShareNew\\unspecified\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
     },
@@ -172,6 +176,10 @@
         "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black_background.xml",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\retrofitokhttprxjava\\banner\\1.4.8\\res\\drawable\\black_background.xml"
+    },
+    {
         "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
@@ -198,6 +206,10 @@
     {
         "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_radius.xml",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\retrofitokhttprxjava\\banner\\1.4.8\\res\\drawable\\gray_radius.xml"
     },
     {
         "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",

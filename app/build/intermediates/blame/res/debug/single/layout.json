@@ -252,6 +252,10 @@
         "source": "E:\\github\\retrofitokhttprxjava\\app\\src\\main\\res\\layout\\activity_list_view_demo.xml"
     },
     {
+        "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\layout\\banner.xml",
+        "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\retrofitokhttprxjava\\banner\\1.4.8\\res\\layout\\banner.xml"
+    },
+    {
         "merged": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "E:\\github\\retrofitokhttprxjava\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_icon.xml"
     },

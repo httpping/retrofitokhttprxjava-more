@@ -12,11 +12,11 @@ import com.base.app.R;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
-public class MvpDemoFragment_ViewBinding<T extends MvpDemoFragment> implements Unbinder {
-  protected T target;
+public class MvpDemoFragment_ViewBinding implements Unbinder {
+  private MvpDemoFragment target;
 
   @UiThread
-  public MvpDemoFragment_ViewBinding(T target, View source) {
+  public MvpDemoFragment_ViewBinding(MvpDemoFragment target, View source) {
     this.target = target;
 
     target.button2 = Utils.findRequiredViewAsType(source, R.id.button2, "field 'button2'", Button.class);
@@ -26,12 +26,11 @@ public class MvpDemoFragment_ViewBinding<T extends MvpDemoFragment> implements U
   @Override
   @CallSuper
   public void unbind() {
-    T target = this.target;
+    MvpDemoFragment target = this.target;
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
 
     target.button2 = null;
     target.RelativeLayout1 = null;
-
-    this.target = null;
   }
 }

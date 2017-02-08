@@ -32,12 +32,12 @@
         "source": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_alipay.png"
     },
     {
-        "merged": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png",
-        "source": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png"
-    },
-    {
         "merged": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_googleplus.png",
         "source": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_googleplus.png"
+    },
+    {
+        "merged": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png",
+        "source": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png"
     },
     {
         "merged": "E:\\github\\retrofitokhttprxjava\\OneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_youdao.png",

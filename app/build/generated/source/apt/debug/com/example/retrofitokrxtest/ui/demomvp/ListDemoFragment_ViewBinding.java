@@ -12,11 +12,11 @@ import in.srain.cube.views.ptr.PtrClassicFrameLayout;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
-public class ListDemoFragment_ViewBinding<T extends ListDemoFragment> implements Unbinder {
-  protected T target;
+public class ListDemoFragment_ViewBinding implements Unbinder {
+  private ListDemoFragment target;
 
   @UiThread
-  public ListDemoFragment_ViewBinding(T target, View source) {
+  public ListDemoFragment_ViewBinding(ListDemoFragment target, View source) {
     this.target = target;
 
     target.recycleView = Utils.findRequiredViewAsType(source, R.id.recycle_view, "field 'recycleView'", RecyclerView.class);
@@ -26,12 +26,11 @@ public class ListDemoFragment_ViewBinding<T extends ListDemoFragment> implements
   @Override
   @CallSuper
   public void unbind() {
-    T target = this.target;
+    ListDemoFragment target = this.target;
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
 
     target.recycleView = null;
     target.ptrFrameLayout = null;
-
-    this.target = null;
   }
 }

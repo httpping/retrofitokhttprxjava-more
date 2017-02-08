@@ -27,23 +27,23 @@ public final class R {
 		public static final int sp_16 = 0x7f07009d;
 	}
 	public static final class drawable {
-		public static final int sample_footer_loading = 0x7f020075;
-		public static final int sample_footer_loading_progress = 0x7f020076;
+		public static final int sample_footer_loading = 0x7f020077;
+		public static final int sample_footer_loading_progress = 0x7f020078;
 	}
 	public static final class id {
 		public static final int BaseQuickAdapter_databinding_support = 0x7f0c0000;
 		public static final int BaseQuickAdapter_dragging_support = 0x7f0c0001;
 		public static final int BaseQuickAdapter_swiping_support = 0x7f0c0002;
 		public static final int BaseQuickAdapter_viewholder_support = 0x7f0c0003;
-		public static final int load_more_load_end_view = 0x7f0c00cc;
-		public static final int load_more_load_fail_view = 0x7f0c00ca;
-		public static final int load_more_loading_view = 0x7f0c00c7;
-		public static final int loading_progress = 0x7f0c00c8;
-		public static final int loading_text = 0x7f0c00c9;
-		public static final int tv_prompt = 0x7f0c00cb;
+		public static final int load_more_load_end_view = 0x7f0c00db;
+		public static final int load_more_load_fail_view = 0x7f0c00d9;
+		public static final int load_more_loading_view = 0x7f0c00d6;
+		public static final int loading_progress = 0x7f0c00d7;
+		public static final int loading_text = 0x7f0c00d8;
+		public static final int tv_prompt = 0x7f0c00da;
 	}
 	public static final class layout {
-		public static final int quick_view_load_more = 0x7f030047;
+		public static final int quick_view_load_more = 0x7f030048;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f06003a;

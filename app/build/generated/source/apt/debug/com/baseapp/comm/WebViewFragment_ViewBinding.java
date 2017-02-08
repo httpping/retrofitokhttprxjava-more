@@ -11,11 +11,11 @@ import in.srain.cube.views.ptr.PtrClassicFrameLayout;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
-public class WebViewFragment_ViewBinding<T extends WebViewFragment> implements Unbinder {
-  protected T target;
+public class WebViewFragment_ViewBinding implements Unbinder {
+  private WebViewFragment target;
 
   @UiThread
-  public WebViewFragment_ViewBinding(T target, View source) {
+  public WebViewFragment_ViewBinding(WebViewFragment target, View source) {
     this.target = target;
 
     target.mPtrFrame = Utils.findRequiredViewAsType(source, R.id.rotate_header_web_view_frame, "field 'mPtrFrame'", PtrClassicFrameLayout.class);
@@ -24,11 +24,10 @@ public class WebViewFragment_ViewBinding<T extends WebViewFragment> implements U
   @Override
   @CallSuper
   public void unbind() {
-    T target = this.target;
+    WebViewFragment target = this.target;
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
 
     target.mPtrFrame = null;
-
-    this.target = null;
   }
 }

@@ -1,1 +1,1 @@
-include ':app', ':tpnet', ':utils-box',   ':recycle-adapter', ':OneKeyShareNew'
+include ':app', ':tpnet', ':utils-box', ':recycle-adapter', ':OneKeyShareNew', ':banner'
